@@ -1,4 +1,5 @@
 import { Grid, GridItem } from "@chakra-ui/react";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
@@ -12,8 +13,8 @@ const App = () => {
       top="0"
       left="0"
     >
-      <GridItem area="nav" bg="coral">
-        Nav
+      <GridItem area="nav">
+        <NavBar />
       </GridItem>
       <GridItem area="aside" bg="gold" display={{ base: "none", lg: "block" }}>
         Aside
@@ -26,3 +27,11 @@ const App = () => {
 };
 
 export default App;
+
+/*
+position={"absolute"}
+      top="0"
+      left="0"
+
+Sets the position of the element manually to top and left
+*/
