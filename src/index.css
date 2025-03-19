@@ -53,6 +53,9 @@ button {
   }
 }
 
+form {
+  width: 100%;
+}
 /*
 :root {
     color: #213547;
