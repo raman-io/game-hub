@@ -28,7 +28,7 @@ const GameGrid = ({ gameQuery }: Props) => {
             </GameCardContainer>
           ))}
         {data.length <= 0 ? (
-          <Text>No games found!</Text>
+          <Text paddingLeft={3}>No games found!</Text>
         ) : (
           data.map((game) => (
             <GameCardContainer key={game.id}>
